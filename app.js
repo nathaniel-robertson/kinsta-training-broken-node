@@ -1,7 +1,7 @@
 require('dotenv').config();
 const http = require('http');
 
-const port = 8001;
+const port = process.env.PORT;
 const server = http.createServer((req, res) => {
   res.statusCode = 200;
   res.setHeader('Content-Type', 'text/plain');
