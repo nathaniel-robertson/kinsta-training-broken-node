@@ -1,6 +1,7 @@
 {
   "scripts": {
-    "start": "node app.js"
+    "start": "node app.js",
+    "alternatetest": "node alternatetest.js"
   },
   "engines": {
   "node": "^19.8.1",
